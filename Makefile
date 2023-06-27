@@ -5,7 +5,7 @@ BUILD    := ./build
 OBJ_DIR  := $(BUILD)/objects
 APP_DIR  := $(BUILD)/apps
 TARGET   := program
-INCLUDE  := -Iinclude/
+INCLUDE  := -Isrc/
 SRC      :=                      \
 	$(wildcard src/DataClasses/*.cpp) \
 	$(wildcard src/Converters/*.cpp) \
